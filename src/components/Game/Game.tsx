@@ -1,15 +1,27 @@
 import { useContext } from "react";
+import useWindowSize from "react-use/lib/useWindowSize";
+import Confetti from "react-confetti";
 import { Box, JollyBox } from "../Box/Box";
-import "./Game.css";
-import { BingoContext } from "../../context/BingoContext";
+import Modal from "../Modal/Modal";
 import Button from "../Button/Button";
 
+import "./Game.css";
+import { BingoContext } from "../../context/BingoContext";
+
 const Game = () => {
-  const { grid, setGridElement, shuffleAndInitialize } =
+  const { width, height } = useWindowSize();
+  const { grid, setGridElement, gameFinished, shuffleAndInitialize } =
     useContext(BingoContext);
 
   return (
     <div className="container">
+      {gameFinished && (
+        <>
+          <Confetti width={width} height={height} />
+          <Modal />
+        </>
+      )}
+
       <div className="gameContainer">
         <div className="buttonContainer">
           <Button onClick={() => shuffleAndInitialize?.()}>New Game</Button>

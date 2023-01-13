@@ -1,0 +1,52 @@
+.darkLayout {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  height: 100%;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal {
+  width: 450px;
+  height: 270px;
+  z-index: 10;
+  border: 7px solid #ff5500;
+  border-radius: 18px;
+  background-color: rgb(158, 42, 178);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 5%;
+}
+
+.modalContent {
+  font-size: 32px;
+  font-weight: 300;
+  color: lightyellow;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.modalActions {
+  position: absolute;
+  bottom: 2px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 20%;
+  margin-bottom: 5%;
+}
+
+.actionsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
