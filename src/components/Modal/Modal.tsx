@@ -11,12 +11,8 @@ const Modal: React.FC = () => {
       <div className={"centered"}>
         <div className={"modal"}>
           <div className={"modalContent"}>
-            <h1 className="h1" style={{ marginBottom: "0" }}>
-              Congratulation,
-            </h1>
-            <p className="p" style={{ marginTop: "0" }}>
-              we have a Winner!!
-            </p>
+            <h1 className="h1">Congratulation,</h1>
+            <p className="p">we have a Winner!!</p>
           </div>
           <div className={"modalActions"}>
             <div className={"actionsContainer"}>
