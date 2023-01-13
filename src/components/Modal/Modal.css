@@ -24,6 +24,13 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
+<<<<<<< Updated upstream
+=======
+  padding: 0 5%;
+  animation-name: fallDown;
+  animation-duration: 2s;
+  position: relative;
+>>>>>>> Stashed changes
 }
 
 .modalContent {
@@ -56,6 +63,7 @@
   align-items: center;
   margin-bottom: 5%;
 }
+<<<<<<< Updated upstream
 @media (max-width: 920px) {
   .modal {
     width: 500px;
@@ -80,5 +88,15 @@
   }
   .p {
     font-size: 30px;
+=======
+@keyframes fallDown {
+  from {
+    top: -200px;
+    background-color: orange;
+  }
+  to {
+    top: 0px;
+    background-color: rgb(158, 42, 178);
+>>>>>>> Stashed changes
   }
 }
