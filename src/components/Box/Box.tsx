@@ -2,6 +2,7 @@ import React from "react";
 import { GridElement } from "../../context/BingoContext";
 import logo from "../../assets/sensory-logo.png";
 import "./Box.css";
+import { FluidText } from "../FluidText/FluidText";
 
 interface BoxProps {
   onBoxClicked: () => void;
@@ -18,8 +19,7 @@ export const Box: React.FC<BoxProps> = ({ onBoxClicked, gridElement }) => {
         color: gridElement.selected ? "lightyellow" : "#90188c",
       }}
     >
-      {" "}
-      <div>{gridElement.text}</div>
+      <FluidText>{gridElement.text}</FluidText>
     </div>
   );
 };

@@ -1,0 +1,7 @@
+.button {
+  background-color: lightyellow;
+  color: rgb(158, 42, 178);
+  border: 1x solid rgb(158, 42, 178);
+  border-radius: 7%;
+  font-family: "Orbitron", sans-serif;
+}

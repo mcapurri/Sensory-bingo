@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { Box, JollyBox } from "../Box/Box";
 import "./Game.css";
 import { BingoContext } from "../../context/BingoContext";
+import Button from "../Button/Button";
 
 const Game = () => {
   const { grid, setGridElement, shuffleAndInitialize } =
@@ -11,7 +12,7 @@ const Game = () => {
     <div className="container">
       <div className="gameContainer">
         <div className="buttonContainer">
-          <button onClick={() => shuffleAndInitialize?.()}>New Game</button>
+          <Button onClick={() => shuffleAndInitialize?.()}>New Game</Button>
         </div>
         <div className="boardContainer">
           {grid?.map((row, rowIndex) =>
