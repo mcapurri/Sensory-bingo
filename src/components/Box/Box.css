@@ -1,0 +1,48 @@
+.boxContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border: thin solid #ff5500;
+  border-radius: 5px;
+  padding: 0.5em 0.25em;
+  cursor: pointer;
+  background-color: #d770d4;
+  font-size: 20px;
+  font-weight: 900;
+}
+.boxContainer :hover {
+  scale: 1.05;
+}
+.jollyBoxContainer :hover {
+  scale: 1;
+}
+
+.image {
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+}
+
+@media (max-width: 760px) {
+  .image {
+    width: 62px;
+    height: 62px;
+  }
+}
+
+@media (max-width: 576px) {
+  .image {
+    width: 46px;
+    height: 46px;
+  }
+}
+@media (max-width: 430px) {
+  .boxContainer {
+    font-weight: 300;
+  }
+  .image {
+    width: 42px;
+    height: 42px;
+  }
+}

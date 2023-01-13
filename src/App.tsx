@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import Game from "./components/Game/Game";
+import { BingoContextProvider } from "./context/BingoContext";
 
 function App() {
   return (
@@ -7,8 +9,9 @@ function App() {
       <header>
         <h1 className="header">Sensory Bingo</h1>
       </header>
-
-      <h1>Game</h1>
+      <BingoContextProvider>
+        <Game />
+      </BingoContextProvider>
     </div>
   );
 }
