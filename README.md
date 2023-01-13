@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Sensory bingo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A sensory version of the bingo game, which offer the speech recognition feature.
 
 ## Available Scripts
 
