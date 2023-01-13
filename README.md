@@ -2,6 +2,8 @@
 
 A sensory version of the bingo game, which offer the speech recognition feature.
 
+Please note: Speech recognition does not work on Brave browser
+
 ## Available Scripts
 
 In the project directory, you can run:
