@@ -4,4 +4,11 @@
   border: 1x solid rgb(158, 42, 178);
   border-radius: 7%;
   font-family: "Orbitron", sans-serif;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 38px;
+}
+.small {
+  width: 50px;
+  height: 20px;
 }

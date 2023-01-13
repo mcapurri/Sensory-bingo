@@ -1,0 +1,14 @@
+.speechRecContainer {
+  width: 100%;
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.actionsCont {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

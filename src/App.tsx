@@ -1,5 +1,5 @@
-import React from "react";
 import "./App.css";
+import { BuzzwordSpeechRecognition } from "./components/BuzzwordSpeechRecognition/BuzzwordSpeechRecognition";
 import Game from "./components/Game/Game";
 import { BingoContextProvider } from "./context/BingoContext";
 
@@ -10,6 +10,7 @@ function App() {
         <h1 className="header">Sensory Bingo</h1>
       </header>
       <BingoContextProvider>
+        <BuzzwordSpeechRecognition />
         <Game />
       </BingoContextProvider>
     </div>

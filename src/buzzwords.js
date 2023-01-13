@@ -8,7 +8,7 @@ export const buzzwords = [
   "Your audio is cutting out",
   "Can you hear me?",
   "I cannot see you..",
-  "How long is it gonna take?",
+  "How long is it going to take?",
   "We're already a few minutes over time..",
   "*Awkward silence*",
   "Hey... nice background!",
