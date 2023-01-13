@@ -38,7 +38,7 @@ export const BuzzwordSpeechRecognition: React.FC = () => {
   return (
     <div className="speechRecContainer">
       <p style={{ paddingLeft: "10px" }}>
-        Microphone: {listening ? "listening" : "off"}
+        Microphone: {listening ? "listening.." : "off"}
       </p>
 
       <div className="actionsCont">
