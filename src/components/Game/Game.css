@@ -63,28 +63,28 @@
 }
 @media (max-width: 1560px) {
   .gameContainer {
-    width: 52%;
+    width: 45%;
   }
 }
 @media (max-width: 1360px) {
   .gameContainer {
-    width: 60%;
+    width: 54%;
   }
 }
 @media (max-width: 1200px) {
   .gameContainer {
-    width: 70%;
+    width: 60%;
   }
 }
 
 @media (max-width: 1024px) {
   .gameContainer {
-    width: 76%;
+    width: 64%;
   }
 }
 @media (max-width: 990px) {
   .gameContainer {
-    width: 78%;
+    width: 60%;
   }
 }
 @media (max-width: 768px) {
